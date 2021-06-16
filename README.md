@@ -13,7 +13,7 @@ Visit localhost:9001/graphql
 ## Collection search
 ```
 {
-    collection(short_name: "xxxx") {
+    collections(short_name: "xxxx") {
         id
     }
 }
